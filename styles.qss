@@ -1,0 +1,49 @@
+QPushButton {
+    background-color: #6e7271;
+    color: #ff9822;
+    font-weight: 500;
+    border: 2px solid #ff9822;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+QPushButton::pressed {
+    color: #00ff00;
+    font-weight: 500;
+    border: 2px solid #00ff00;
+}
+
+QToolButton {
+    background-color: #6e7271;
+    color: #ff9822;
+    font-weight: 500;
+    border: 2px solid #ff9822;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+QToolButton::pressed {
+    color: #00ff00;
+    font-weight: 500;
+    border: 2px solid #00ff00;
+}
+
+QMainWindow {
+    background-color: #130727;
+}
+
+QLabel {
+    color: #ff9822;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Vertical (5) and Horizontal (4) Lines */
+QFrame[frameShape="5"],
+QFrame[frameShape="4"] {
+    background-color: #ff9822;
+    min-height: 5px;
+}
+
+
+
