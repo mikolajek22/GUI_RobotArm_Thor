@@ -1,5 +1,5 @@
 QT       += core gui
-
+QT       += core network
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
 CONFIG += c++17
@@ -11,10 +11,12 @@ CONFIG += c++17
 SOURCES += \
     main.cpp \
     mainwindow.cpp \
+    modbustcp.cpp \
     topbar.cpp
 
 HEADERS += \
     mainwindow.h \
+    modbustcp.h \
     topbar.h
 
 FORMS += \

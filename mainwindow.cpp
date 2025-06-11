@@ -12,4 +12,6 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
-
+void MainWindow::test() {
+    ui->label->setText("OK");
+}
